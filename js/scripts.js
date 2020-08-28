@@ -6,37 +6,31 @@ this.price = 10;
 }
 
 Pizza.prototype.costPizza = function() {
+// Still working on it.
   if (this.size === "large") {
-   this.price += 5;
-  } else if (this.size == "medium") {
-   this.price  += 2;
-  } else  {
+    this.price += 5;
+  } else if (this.size === "medium") {
+    this.price  += 2;
+  } else if (this.size === "small") {
     this.price;
+  } else {
+    alert("Fix your code")
   }
-  if()
-    return this.price;
-  
+  return this.price 
 }
 
-
-
-
-
-
-
-
-
-
+// UI Logic
 $(document).ready(function() {
   $("#formOne").submit(function(event) { 
   event.preventDefault();
   const inputtedPizza = $("#pizza").val();
-  // $("input:checkbox[name=pizza-parlor]:checked").each(function() {
-  //   let inputtedTopping = $(this).val();
-  // });
- 
-  
+  // trying to fix this part
+  const inputtedTopping = $('input[type="checkbox"]').length;
+  let pizzaNew = new Pizza(inputtedPizza, inputtedToppings);
+  let result = Object.keys(pizzaNew);
+  let finalPrice = pizzaNew.costPizza(result)
+  console.log(finalPrice)
+  $("#price").text(finalPrice)
+  $("#output").show()
   })
 })
-
-
