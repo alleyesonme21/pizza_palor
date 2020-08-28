@@ -29,6 +29,14 @@ _The program calculates the price of the pizza based on size and then charges $1
 * Example Calculation: $10 + ($1 * 3)
 * Example Output: $13
 
+_The program calculates the price of a plain medium pizza with zero toppings as_
+* Example Input: User selects medium size pizza with zero toppings
+* Example Output: $12
+
+_The program calculates the price of the pizza based on size and then charges $1 per every topping_
+* Example Input: User selects medium size pizza with 4 toppings
+* Example Calculation: $12 + ($1 * 4)
+* Example Output: $16
 
 ## Support and contact details
 Contact info: Email: duverseaujohnny21@gmail.com
