@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <script src="js/jquery.js"></script>
+  <script src="js/scripts.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizza Parlor</title>
+</hea>
+<body>
+  <div class="container">
+  <div class="well">
+  <h1>Pizza Parlor</h1>
+  </div>
+  <form id="formOne">
+  
+    <h1>Choose your Size</h1>
+    <select id="pizza">
+      <option value="large">Large</option>
+      <option value="medium">Medium</option>
+      <option value="small">Small</option>
+    </select>
+  
+    <h1>Choose your Toppings</h1>
+    <div class="form-group">
+      <input type="checkbox" name="pizza-parlor" value="cheese"> Cheese.<br>
+      <input type="checkbox" name="pizza-parlor" value="pepperoni"> Pepperoni.<br>
+      <input type="checkbox" name="pizza-parlor" value="artichoke"> Artichoke.<br>
+      <input type="checkbox" name="pizza-parlor" value="anchovy"> Anchovy.<br>
+    </div>
+    
+      <button type="submit" class="btn btn-success">submit</button>
+  </form>
+  <div id="output">
+      <p>The Price $ <span class="price"></span></p>
+  </div>
+  </div>
+  </div>
+</body>
+</html>
