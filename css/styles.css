@@ -1,3 +1,48 @@
+body {
+  background-image: url("../img/pizza.jpg");
+  color:black;
+  z-index: -1; 
+  background-color: brown;
+}
 #output {
   display: none;
 }
+h1 {
+  text-align: center;
+  color: greenyellow;
+  margin-top: 20px;
+  font-size: 50px;
+}
+h2 {
+  color: rgb(0, 255, 255);
+}
+.btn-success {
+  margin-bottom: 50px;
+  font-size: 25px;
+} 
+.col-md-6 {
+  margin-top: 50px;
+}
+#formOne .form-control {
+  color: red;
+  width: 50%;
+}
+p {
+color: greenyellow;
+margin: 20%;
+margin-top: 5%;
+font-size: 50px;
+color: rgb(9, 224, 160);
+}  
+#formOne {
+  color: rgb(255, 238, 0);
+  font-size: 20px; 
+} 
+.container {
+  background-color: rgba(34, 30, 30, 0.616);
+  padding-bottom: 20%;
+  padding-left: 10%;
+  color: black;
+  z-index: 7;
+}
+
