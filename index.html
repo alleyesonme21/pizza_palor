@@ -15,18 +15,24 @@
       <h1>Pizza Parlor</h1>
     </div>
     <form id="formOne">
-      <h2>Choose your Size</h2>
-      <select id="pizza" class="form-control">
-        <option value="1">Large</option>
-        <option value="2">Medium</option>
-        <option value="3">Small</option>
-      </select>
-      <h2>Choose your Toppings</h2>
-      <div class="form-group">
-        <input type="checkbox" name="pizza-parlor" value="1"> Cheese<br>
-        <input type="checkbox" name="pizza-parlor" value="2"> Pepperoni<br>
-        <input type="checkbox" name="pizza-parlor" value="3"> Artichoke<br>
-        <input type="checkbox" name="pizza-parlor" value="4"> Anchovy<br>
+      <div class="row">
+        <div class="col-md-6">
+        <h2>Choose your Size</h2>
+          <select id="pizza" class="form-control">
+            <option value="1">Large</option>
+            <option value="2">Medium</option>
+            <option value="3">Small</option>
+          </select>
+          </div>
+          <div class="col-md-6">
+            <h2 class="add">Choose your Toppings</h2>
+            <div class="form-group">
+              <input type="checkbox" name="pizza-parlor" value="1"> Cheese<br>
+              <input type="checkbox" name="pizza-parlor" value="2"> Pepperoni<br>
+              <input type="checkbox" name="pizza-parlor" value="3"> Artichoke<br>
+              <input type="checkbox" name="pizza-parlor" value="4"> Anchovy<br>
+            </div>
+          </div>
       </div>
         <button type="submit" class="btn btn-success">submit</button>
     </form>
