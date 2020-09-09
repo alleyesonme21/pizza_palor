@@ -8,7 +8,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pizza Parlor</title>
-</hea>
+</head>
 <body>
   <div class="container">
     <div class="well">
@@ -17,24 +17,24 @@
     <form id="formOne">
       <div class="row">
         <div class="col-md-6">
-        <h2>Choose your Size</h2>
+          <h2>Choose your Size</h2>
           <select id="pizza" class="form-control">
             <option value="1">Large</option>
             <option value="2">Medium</option>
             <option value="3">Small</option>
           </select>
+        </div>
+        <div class="col-md-6">
+          <h2 class="add">Choose your Toppings</h2>
+          <div class="form-group">
+            <input type="checkbox" name="pizza-parlor" value="1"> Cheese<br>
+            <input type="checkbox" name="pizza-parlor" value="2"> Pepperoni<br>
+            <input type="checkbox" name="pizza-parlor" value="3"> Artichoke<br>
+            <input type="checkbox" name="pizza-parlor" value="4"> Anchovy<br>
           </div>
-          <div class="col-md-6">
-            <h2 class="add">Choose your Toppings</h2>
-            <div class="form-group">
-              <input type="checkbox" name="pizza-parlor" value="1"> Cheese<br>
-              <input type="checkbox" name="pizza-parlor" value="2"> Pepperoni<br>
-              <input type="checkbox" name="pizza-parlor" value="3"> Artichoke<br>
-              <input type="checkbox" name="pizza-parlor" value="4"> Anchovy<br>
-            </div>
-          </div>
+        </div>
       </div>
-        <button type="submit" class="btn btn-success">submit</button>
+      <button type="Submit" class="btn btn-success">submit</button>
     </form>
     <div id="output">
       <p>The Price $ <span id="price"></span></p>
